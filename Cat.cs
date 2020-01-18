@@ -38,6 +38,18 @@ namespace sprint2oop
             Console.WriteLine("I have " + Lives + " lives.");
         }
 
+        public int PromptToLoseALife()
+        {
+            Console.WriteLine("Should I lose a life (yes or no)");
+            string answer = Console.ReadLine();
+
+            if(answer.Equals("yes"))
+            {
+                Lives--;
+            }
+
+            return Lives;
+        }
 
 
     }

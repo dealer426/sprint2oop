@@ -16,7 +16,12 @@ namespace sprint2oop
             annoying.Greeting();
 
             annoying.CheckLives();
-          
+
+            annoying.PromptToLoseALife();
+
+            annoying.CheckLives();
+
+
         }
     }
 }
