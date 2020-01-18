@@ -20,8 +20,6 @@ namespace sprint2oop
             annoying.PromptToLoseALife();
 
             annoying.CheckLives();
-
-
         }
     }
 }

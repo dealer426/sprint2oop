@@ -30,7 +30,6 @@ namespace sprint2oop
             Console.WriteLine("My Name is " + Name + " I have " +
               FurColor + " Furr." + " I am " + Age +
               " years old. " + " I have " + Lives + " lives.");
-
         }
 
         public void CheckLives()
