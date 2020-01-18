@@ -23,6 +23,13 @@ namespace sprint2oop
             Lives = lives;
         }
 
+        public void Greeting()
+        {
+            Console.WriteLine("My Name is " + Name + " I have " +
+              FurColor + " Furr." + " I am " + Age +
+              " years old. " + " I have " + Lives + " lives.");
+
+        }
 
 
 

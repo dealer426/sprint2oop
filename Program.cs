@@ -10,13 +10,11 @@ namespace sprint2oop
             //Create a new Cat Annoying
             Cat annoying = new Cat("Annoying", "blue", 4, 9);
 
-
             Console.WriteLine("Hello Kitty, Tell me about yourself!");
-            
+
             //Ask the Cat to explain who it is
-            Console.WriteLine("My Name is " + annoying.Name + " I have " +
-                annoying.FurColor + " Furr." + " I am " + annoying.Age +
-                " years old. " + " I have " + annoying.Lives + " lives.");
+            annoying.Greeting();
+          
         }
     }
 }
