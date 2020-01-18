@@ -23,6 +23,8 @@ namespace sprint2oop
             Lives = lives;
         }
 
+
+        //Add Methods Here
         public void Greeting()
         {
             Console.WriteLine("My Name is " + Name + " I have " +
