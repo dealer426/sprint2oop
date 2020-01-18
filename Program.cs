@@ -14,6 +14,8 @@ namespace sprint2oop
 
             //Ask the Cat to explain who it is
             annoying.Greeting();
+
+            annoying.CheckLives();
           
         }
     }

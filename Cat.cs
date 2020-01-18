@@ -33,6 +33,10 @@ namespace sprint2oop
 
         }
 
+        public void CheckLives()
+        {
+            Console.WriteLine("I have " + Lives + " lives.");
+        }
 
 
 
